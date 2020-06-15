@@ -1,17 +1,17 @@
-Team:
-  -Saulo Acevedo.
-  -Hans Pech.
-  -Ulises Mis.
+**Team:**
+  *-Saulo Acevedo.*
+  *-Hans Pech.*
+  *-Ulises Mis.*
 --------------------------
-Types of Databases.
+# Types of Databases.
 
-1. Document.
-
-
-2. Key-value.
+## 1. Document.
 
 
-3. Ledger.
+## 2. Key-value.
+
+
+## 3. Ledger.
 A ledger database is log-centric, in comparison to non-ledger databases which are table-centric. 
 
 “Log” is a storage abstraction, used to refer to an append-only, totally ordered sequence of records, ordered by time. 
