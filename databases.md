@@ -51,3 +51,12 @@ There are 3 key characteristics of ledger DBs:
   1.	Immutable. Writes cannot be changed once stored.
   2.	Transparent. Past or overwritten data can be accessed.
   3.	Verifiable. History of changes can be accessed, and it is possible to verify its authenticity.
+  
+--------------------------
+# Types of Database Matrix
+
+|Type of Database     |Features    |Best use   |Usage example   |Service example   |
+|:-----|:----|:---|:---|:---|
+|Key value |**Data Storage and Retrieval:**  Key-value databases allow users to apply a key to each data item (value) and facilitate storage for immediate or future use. **Caching:** This feature allows database users to quickly access data. **A Simple Data Structure:** The database’s simple associated arrays optimize its performance allowing users to quickly perform data-intensive operations. **Scalability:** Users can add and remove servers depending on their needs without causing undesirable disruptions.|   Applications requiring fast access to a large number of objects, such as caches or queues. Applications that require fast-changing data environments like mobile, gaming, online ads.|   Shopping cart during the holiday shopping season, an e-commerce website can receive billions of orders in seconds. Key-value databases can handle the scaling of large amounts of data and extremely high volumes of state change, while serving millions of users simultaneously through distributed storage and processing. Key-value databases also have built-in redundancy, which can handle loss of storage nodes.|  Amazon DynamoDB, Oracle NoSQL Database, InfinityDB, Redis, Aerospike, Oracle Berkeley DB, Riak KV, Voldemort| 
+|Document |    2|   2|   2|   2|  
+|Ledger |    3|   3|   3|   3|  
